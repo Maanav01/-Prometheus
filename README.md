@@ -18,6 +18,8 @@ cd node_exporter-*.*-amd64
 ```bash
 ./node_exporter
 ```
+![1](https://github.com/user-attachments/assets/20718fe1-aa23-428b-978e-f86f52160dea)
+
 - This starts Node Exporter on `http://localhost:9100`.
 
 3. **Verify Metrics**:
@@ -71,6 +73,8 @@ scrape_configs:
 ```bash
 docker-compose up -d
 ```
+![2](https://github.com/user-attachments/assets/9baa6da5-0778-496a-b7f6-0c00adcbd2a4)
+
 
 4. **Verify Prometheus**:
 - Open [http://localhost:9090](http://localhost:9090)
@@ -85,6 +89,7 @@ Grafana provides visualization for collected metrics.
 1. **Access Grafana**:
 - Open [http://localhost:3000](http://localhost:3000)
 - Default login: `admin` / `admin`
+![6](https://github.com/user-attachments/assets/e1f8695f-7528-4322-a506-ee99482ef3c6)
 
 2. **Add Prometheus Data Source**:
 - **Configuration → Data Sources → Add Prometheus**
